@@ -70,7 +70,7 @@ I built a **Java Chatting Application** using socket programming, which includes
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/java-development-internship-shadowfox.git
+    git clone https://github.com/SamK1828/Shadow_Fox_Tasks.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -81,11 +81,11 @@ I built a **Java Chatting Application** using socket programming, which includes
 
 - To run the Calculator, navigate to the calculator directory and compile the Java files:
     ```bash
-    javac Calculator.java
+    javac ConsoleBasedCalculator.java
     ```
   Run the calculator:
     ```bash
-    java Calculator
+    java ConsoleBasedCalculator
     ```
 
 - To run the Contact Management System, navigate to the contact management directory and compile the Java files:
@@ -99,15 +99,19 @@ I built a **Java Chatting Application** using socket programming, which includes
 
 - To run the Chatting Application (one-on-one or group chat), navigate to the chatting application directory and compile the Java files:
     ```bash
-    javac Client.java Server.java
+    javac Task_Level_Advanced\RealTimeChatApplicationWithJavaSocketProgramming\Chatting Application\src\chatting\application\Client.java
     ```
+
+    ```bash
+    javac Task_Level_Advanced\RealTimeChatApplicationWithJavaSocketProgramming\Chatting Application\src\chatting\application\Server.java
+    ``` 
   Run the server:
     ```bash
-    java Server
+    java Task_Level_Advanced\RealTimeChatApplicationWithJavaSocketProgramming\Chatting Application\src\chatting\application\Server
     ```
   Run the client (repeat this step for each user):
     ```bash
-    java Client
+    java Task_Level_Advanced\RealTimeChatApplicationWithJavaSocketProgramming\Chatting Application\src\chatting\application\Client
     ```
 
 ## License
