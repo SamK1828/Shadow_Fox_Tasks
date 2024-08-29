@@ -23,6 +23,27 @@ As a Java Development Intern at ShadowFox, I worked on multiple projects that ho
 ### Console-Based Calculator
 I developed a **Console-Based Calculator** in Java, which includes:
 - Basic arithmetic operations (addition, subtraction, multiplication, division)
+- Unit Conversions
+  - Square Root
+  -  Exponentiation
+  -  Trigonometric Functions
+  -  Logarithm
+  -  Power
+  -  Factorial
+  -  Absolute Value
+  -  Natural Logarithm (ln)
+  -  Exponential (e^x)
+- Scientific Calculations
+  - Temperature (Celsius to Fahrenheit)
+  - Temperature (Fahrenheit to Celsius)
+  - Length (Meters to Feet)
+  - Length (Feet to Meters)
+  - Weight (Kilograms to Pounds)
+  - Weight (Pounds to Kilograms)
+  - Volume (Liters to Gallons)
+  - Volume (Gallons to Liters)
+  - Currency (USD to EUR)
+  - Currency (EUR to USD)
 - Input validation and error handling
 - A simple and interactive console interface
 
@@ -33,22 +54,16 @@ I created a **Console-Based Contact Management System** to manage contact inform
 - A console-based interface for interaction
 
 ### Java Chatting Application
-I built a **Java Chatting Application** using socket programming, allowing:
-- Real-time messaging between multiple users
+I built a **Java Chatting Application** using socket programming, which includes:
+- **One-on-One Chatting:** Real-time messaging between two users
+- **Group Chatting:** Allowing up to three users to join the same chat room and communicate simultaneously
 - Implementation of Java socket programming for networking
 - A simple GUI for chat interaction
 
-### Bank Account Management System with Unit Testing
-I extended a **Bank Account Management System** by adding unit tests using JUnit, covering:
-- Deposit and withdrawal functionalities
-- Balance inquiries and transaction history validation
-- Test-driven development principles
-
 ## Technologies Used
 - **Programming Languages:** Java
-- **Testing Framework:** JUnit
 - **Networking:** Java Sockets
-- **Tools:** Visual Studio Code (VSCode), IntelliJ IDEA
+- **Tools:** Visual Studio Code (VSCode)
 - **Data Management:** Arrays, Lists
 
 ## Installation
@@ -59,7 +74,7 @@ I extended a **Bank Account Management System** by adding unit tests using JUnit
     ```
 2. Navigate to the project directory:
     ```bash
-    cd java-development-internship-shadowfox
+    cd Shadow_Fox_Tasks
     ```
 
 ## Usage
@@ -82,7 +97,7 @@ I extended a **Bank Account Management System** by adding unit tests using JUnit
     java ContactManagementSystem
     ```
 
-- To run the Chatting Application, navigate to the chatting application directory and compile the Java files:
+- To run the Chatting Application (one-on-one or group chat), navigate to the chatting application directory and compile the Java files:
     ```bash
     javac Client.java Server.java
     ```
@@ -90,14 +105,9 @@ I extended a **Bank Account Management System** by adding unit tests using JUnit
     ```bash
     java Server
     ```
-  Run the client:
+  Run the client (repeat this step for each user):
     ```bash
     java Client
-    ```
-
-- To run Unit Tests, navigate to the test directory and run the JUnit tests:
-    ```bash
-    mvn test
     ```
 
 ## License
