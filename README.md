@@ -1,7 +1,3 @@
-Here is the updated `README.md` file with the addition of the Inventory Management System:
-
----
-
 # Java Development Internship - ShadowFox
 
 This repository contains all the tasks and projects I completed during my Java Development Internship at ShadowFox. The internship provided an excellent opportunity to deepen my understanding of Java programming, socket programming, unit testing, and data management. Below is a summary of the tasks, projects, and technologies used throughout the internship.
