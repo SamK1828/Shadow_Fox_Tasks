@@ -1,3 +1,7 @@
+Here is the updated `README.md` file with the addition of the Inventory Management System:
+
+---
+
 # Java Development Internship - ShadowFox
 
 This repository contains all the tasks and projects I completed during my Java Development Internship at ShadowFox. The internship provided an excellent opportunity to deepen my understanding of Java programming, socket programming, unit testing, and data management. Below is a summary of the tasks, projects, and technologies used throughout the internship.
@@ -8,6 +12,7 @@ This repository contains all the tasks and projects I completed during my Java D
   - [Console-Based Calculator](#console-based-calculator)
   - [Console-Based Contact Management System](#console-based-contact-management-system)
   - [Java Chatting Application](#java-chatting-application)
+  - [Inventory Management System](#inventory-management-system)
   - [Bank Account Management System with Unit Testing](#bank-account-management-system-with-unit-testing)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
@@ -25,14 +30,14 @@ I developed a **Console-Based Calculator** in Java, which includes:
 - Basic arithmetic operations (addition, subtraction, multiplication, division)
 - Unit Conversions
   - Square Root
-  -  Exponentiation
-  -  Trigonometric Functions
-  -  Logarithm
-  -  Power
-  -  Factorial
-  -  Absolute Value
-  -  Natural Logarithm (ln)
-  -  Exponential (e^x)
+  - Exponentiation
+  - Trigonometric Functions
+  - Logarithm
+  - Power
+  - Factorial
+  - Absolute Value
+  - Natural Logarithm (ln)
+  - Exponential (e^x)
 - Scientific Calculations
   - Temperature (Celsius to Fahrenheit)
   - Temperature (Fahrenheit to Celsius)
@@ -60,11 +65,26 @@ I built a **Java Chatting Application** using socket programming, which includes
 - Implementation of Java socket programming for networking
 - A simple GUI for chat interaction
 
+### Inventory Management System
+I developed an **Inventory Management System** with a graphical user interface using Java Swing, which includes:
+- **Item Management:** Add, update, delete, and search inventory items.
+- **Data Sorting:** Sort items by name, quantity, or price.
+- **Export Functionality:** Export inventory data to a CSV file.
+- **User-Friendly Interface:** An intuitive GUI for managing inventory items.
+
+### Bank Account Management System with Unit Testing
+I implemented a **Bank Account Management System** featuring:
+- **Account Management:** Create, view, update, and delete bank accounts.
+- **Transaction Handling:** Process deposits, withdrawals, and balance checks.
+- **Unit Testing:** Developed comprehensive unit tests using JUnit to ensure the reliability of the system.
+
 ## Technologies Used
 - **Programming Languages:** Java
 - **Networking:** Java Sockets
 - **Tools:** Visual Studio Code (VSCode)
 - **Data Management:** Arrays, Lists
+- **GUI:** Java Swing
+- **Testing:** JUnit
 
 ## Installation
 
@@ -114,10 +134,15 @@ I built a **Java Chatting Application** using socket programming, which includes
     java Task_Level_Advanced\RealTimeChatApplicationWithJavaSocketProgramming\Chatting Application\src\chatting\application\Client
     ```
 
+- To run the Inventory Management System, navigate to the inventory management directory and compile the Java files:
+    ```bash
+    javac InventoryManagementSystem.java
+    ```
+  Run the application:
+    ```bash
+    java InventoryManagementSystem
+    ```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-This repository showcases the projects and skills I developed during my internship at ShadowFox. I am excited to continue building upon this foundation in future projects and deepen my expertise in Java development.
